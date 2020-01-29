@@ -22,7 +22,11 @@
                 "delegateResignation": 2500000000
             }
         },
-        "vendorFieldLength": 255,
-        "aip11": true
+        "vendorFieldLength": 64
+    },
+    {
+        "height": 2,
+        "aip11": true,
+        "vendorFieldLength": 255
     }
 ]
