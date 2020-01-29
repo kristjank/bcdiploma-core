@@ -1,18 +1,18 @@
 {
     "name": "mainnet",
-    "messagePrefix": "ARK message:\n",
+    "messagePrefix": "BCDIPLOMA message:\n",
     "bip32": {
-        "public": 46090600,
-        "private": 46089520
+        "public": 70617039,
+        "private": 70615956
     },
-    "pubKeyHash": 23,
-    "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
-    "wif": 170,
-    "slip44": 111,
+    "pubKeyHash": 70,
+    "nethash": "f9dd858169ed3a58ac12a02a2392f45db8a41915e250d73b57b33561b164ef5e",
+    "wif": 200,
+    "slip44": 1,
     "aip20": 0,
     "client": {
-        "token": "ARK",
-        "symbol": "Ѧ",
-        "explorer": "https://explorer.ark.io"
+        "token": "VPT",
+        "symbol": "V",
+        "explorer": "https://explorer.bcdiploma.com"
     }
 }
