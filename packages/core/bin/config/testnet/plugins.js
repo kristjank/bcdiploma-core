@@ -8,7 +8,6 @@ module.exports = {
         minimumNetworkReach: 5,
     },
     "@arkecosystem/core-state": {},
-    "@arkecosystem/core-magistrate-transactions": {},
     "@arkecosystem/core-database-postgres": {
         connection: {
             host: process.env.CORE_DB_HOST || "localhost",
@@ -38,12 +37,6 @@ module.exports = {
                 htlcLock: 100,
                 htlcClaim: 0,
                 htlcRefund: 0,
-                businessRegistration: 4000000,
-                businessUpdate: 500,
-                businessResignation: 100,
-                bridgechainRegistration: 4000000,
-                bridgechainUpdate: 500,
-                bridgechainResignation: 100,
             },
         },
     },
