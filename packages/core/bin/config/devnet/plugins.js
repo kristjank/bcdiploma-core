@@ -5,7 +5,7 @@ module.exports = {
         server: {
             port: process.env.CORE_P2P_PORT || 4002,
         },
-        minimumNetworkReach: 5,
+        minimumNetworkReach: 4,
     },
     "@arkecosystem/core-state": {},
     "@arkecosystem/core-database-postgres": {
