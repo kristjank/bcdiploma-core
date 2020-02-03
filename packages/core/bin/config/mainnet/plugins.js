@@ -7,6 +7,7 @@ module.exports = {
         },
         minimumNetworkReach: 5,
     },
+    "@bcdiploma/certificate-manager": {},
     "@arkecosystem/core-state": {},
     "@arkecosystem/core-database-postgres": {
         connection: {
