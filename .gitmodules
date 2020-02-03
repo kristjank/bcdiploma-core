@@ -1,0 +1,3 @@
+[submodule "plugins/certificate-manager"]
+	path = plugins/certificate-manager
+	url = https://github.com/kristjank/certificate-manager/
