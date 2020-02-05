@@ -4,7 +4,6 @@ module.exports = {
             run: {
                 plugins: {
                     include: [
-                        "@arkecosystem/core-magistrate-transactions",
                         "@bcdiploma/certificate-manager"
                     ],
                 },
@@ -14,7 +13,6 @@ module.exports = {
             run: {
                 plugins: {
                     include: [
-                        "@arkecosystem/core-magistrate-transactions",
                         "@bcdiploma/certificate-manager"
                     ],
                 },
@@ -24,7 +22,6 @@ module.exports = {
             run: {
                 plugins: {
                     include: [
-                        "@arkecosystem/core-magistrate-transactions",
                         "@bcdiploma/certificate-manager"
                     ],
                 },
@@ -34,7 +31,6 @@ module.exports = {
             run: {
                 plugins: {
                     include: [
-                        "@arkecosystem/core-magistrate-transactions",
                         "@bcdiploma/certificate-manager"
                     ],
                 },
@@ -44,7 +40,6 @@ module.exports = {
             run: {
                 plugins: {
                     include: [
-                        "@arkecosystem/core-magistrate-transactions",
                         "@bcdiploma/certificate-manager"
                     ],
                 },
