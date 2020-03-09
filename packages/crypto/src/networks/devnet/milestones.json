@@ -28,5 +28,11 @@
         "height": 2,
         "aip11": true,
         "vendorFieldLength": 255
+    },
+    {
+        "height": 10000,
+        "p2p": {
+            "minimumVersions": [">=2.6.24"]
+        }
     }
 ]
