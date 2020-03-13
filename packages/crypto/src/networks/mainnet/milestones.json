@@ -27,6 +27,7 @@
     {
         "height": 2,
         "aip11": true,
-        "vendorFieldLength": 255
+        "vendorFieldLength": 255,
+        "idFullSha256": true
     }
 ]

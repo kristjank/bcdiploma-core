@@ -31,5 +31,11 @@
         "p2p": {
             "minimumVersions": [">=2.6.25"]
         }
+    },
+    {
+        "height": 35000,
+        "block": {
+            "idFullSha256": true
+        }
     }
 ]
