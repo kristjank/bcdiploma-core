@@ -83,7 +83,7 @@
         "envfile": "^4.0.0",
         "execa": "^2.0.3",
         "fast-levenshtein": "^2.0.6",
-        "fs-extra": "^8.1.0",
+        "fs-extra": "^9.0.0",
         "latest-version": "^5.1.0",
         "listr": "^0.14.3",
         "lodash.minby": "^4.6.0",
