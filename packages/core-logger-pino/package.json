@@ -22,7 +22,7 @@
         "@arkecosystem/core-container": "^2.6.31",
         "@arkecosystem/core-interfaces": "^2.6.31",
         "@arkecosystem/core-logger": "^2.6.31",
-        "pino": "^5.12.6",
+        "pino": "^6.0.0",
         "pino-pretty": "^3.2.0",
         "pump": "^3.0.0",
         "readable-stream": "^3.4.0",
@@ -30,7 +30,7 @@
         "split2": "^3.1.1"
     },
     "devDependencies": {
-        "@types/pino": "^5.8.8",
+        "@types/pino": "^6.0.0",
         "@types/pump": "^1.1.0",
         "@types/readable-stream": "^2.3.2",
         "@types/split2": "^2.1.6"
