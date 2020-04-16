@@ -33,7 +33,7 @@
         "@hapi/joi": "^15.1.0",
         "ajv": "^6.10.2",
         "dayjs": "^1.8.15",
-        "hapi-rate-limit": "^4.0.0",
+        "hapi-rate-limit": "^5.0.0",
         "ip": "^1.1.5",
         "lodash.orderby": "^4.6.0",
         "lodash.partition": "^4.6.0",
