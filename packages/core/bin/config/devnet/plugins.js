@@ -5,7 +5,7 @@ module.exports = {
         server: {
             port: process.env.CORE_P2P_PORT || 4002,
         },
-        minimumNetworkReach: 4,
+        minimumNetworkReach: 2,
     },
     "@bcdiploma/certificate-manager": {},
     "@arkecosystem/core-state": {},
