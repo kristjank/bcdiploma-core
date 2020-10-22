@@ -19,7 +19,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Cache node modules
-              uses: actions/cache@v1
+              uses: actions/cache@v2
               with:
                   path: node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
@@ -56,7 +56,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Cache node modules
-              uses: actions/cache@v1
+              uses: actions/cache@v2
               with:
                   path: node_modules
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
@@ -94,7 +94,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Cache node modules
-              uses: actions/cache@v1
+              uses: actions/cache@v2
               with:
                   path: node_modules
                   key: ${{ runner.os }}-e2e-${{ hashFiles('**/yarn.lock') }}
