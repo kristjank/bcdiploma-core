@@ -25,7 +25,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Install & Build
@@ -62,7 +62,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -100,7 +100,7 @@ jobs:
                   key: ${{ runner.os }}-e2e-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-e2e-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Install and build packages

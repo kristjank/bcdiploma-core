@@ -36,7 +36,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -85,7 +85,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -134,7 +134,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -183,7 +183,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -232,7 +232,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -281,7 +281,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -330,7 +330,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -379,7 +379,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -428,7 +428,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -477,7 +477,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -526,7 +526,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -575,7 +575,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -624,7 +624,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -673,7 +673,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -722,7 +722,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -771,7 +771,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -820,7 +820,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
@@ -869,7 +869,7 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
                   restore-keys: ${{ runner.os }}-node-
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
             - name: Update system
