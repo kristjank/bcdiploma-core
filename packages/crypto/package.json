@@ -30,7 +30,7 @@
         "@arkecosystem/utils": "^1.1",
         "@types/bytebuffer": "^5.0.40",
         "ajv": "^6.10.2",
-        "ajv-keywords": "^3.4.1",
+        "ajv-keywords": "^4.0.0",
         "bcrypto": "^4.1.0",
         "bip32": "^2.0.3",
         "bip39": "^3.0.2",
