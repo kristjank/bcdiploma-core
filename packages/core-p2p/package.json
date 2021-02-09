@@ -35,7 +35,7 @@
         "ajv": "^6.10.2",
         "better-sqlite3": "^5.4.0",
         "dayjs": "^1.8.15",
-        "delay": "^4.3.0",
+        "delay": "^5.0.0",
         "fs-extra": "^8.1.0",
         "hapi-rate-limit": "^4.0.0",
         "ip": "^1.1.5",
