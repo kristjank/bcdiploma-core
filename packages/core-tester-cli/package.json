@@ -37,7 +37,7 @@
         "@oclif/plugin-not-found": "^1.2.2",
         "bip39": "^3.0.2",
         "clipboardy": "^2.1.0",
-        "delay": "^4.3.0",
+        "delay": "^5.0.0",
         "lodash.chunk": "^4.2.0",
         "pino": "^5.12.6",
         "pino-pretty": "^3.2.0",

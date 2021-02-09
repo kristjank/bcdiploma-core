@@ -32,7 +32,7 @@
         "@arkecosystem/core-utils": "^2.6.36",
         "@arkecosystem/crypto": "^2.6.36",
         "async": "^3.1.0",
-        "delay": "^4.3.0",
+        "delay": "^5.0.0",
         "immutable": "^4.0.0-rc.12",
         "lodash.get": "^4.4.2",
         "pluralize": "^8.0.0",
